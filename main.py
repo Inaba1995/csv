@@ -11,7 +11,7 @@ driver.get(url)
 
 time.sleep(8)
 
-svetilniki = driver.finde_elements(By.CLASS_NAME, 'https://www.divan.ru/sankt-peterburg/category/svet?sort=0')
+svetilniki = driver.find_elements(By.CSS_SELECTOR, 'https://www.divan.ru/sankt-peterburg/category/svet?sort=0')
 
 print(svetilniki)
 
